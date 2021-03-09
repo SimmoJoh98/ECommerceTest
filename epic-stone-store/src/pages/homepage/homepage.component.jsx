@@ -1,40 +1,11 @@
 import react from 'react';
 import './homepage.styles.scss'
+import Directory from '../../components/directory/directory.component';
+
 
 const HomePage = () => (
     <div className="homepage">
-        <div className="directory-menu">
-            <div className="menu-item">
-                <div className="content">
-                    <h1 className="title">STONES</h1>
-                    <span className="subtitle">SHOP NOW</span>
-                </div>
-            </div>
-            <div className="menu-item">
-                <div className="content">
-                    <h1 className="title">RINGS</h1>
-                    <span className="subtitle">SHOP NOW</span>
-                </div>
-            </div>
-            <div className="menu-item">
-                <div className="content">
-                    <h1 className="title">ARTIFACTS</h1>
-                    <span className="subtitle">SHOP NOW</span>
-                </div>
-            </div>
-            <div className="menu-item">
-                <div className="content">
-                    <h1 className="title">MODELS</h1>
-                    <span className="subtitle">SHOP NOW</span>
-                </div>
-            </div>
-            <div className="menu-item">
-                <div className="content">
-                    <h1 className="title">LIQUIDS</h1>
-                    <span className="subtitle">SHOP NOW</span>
-                </div>
-            </div>
-        </div>
+        <Directory />
     </div>
 )
 
