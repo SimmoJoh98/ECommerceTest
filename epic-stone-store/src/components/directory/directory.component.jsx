@@ -9,33 +9,33 @@ class Directory extends React.Component {
 
         this.state = {
             sections: [{
-                title: 'stones',
-                imageUrl: 'https://unsplash.com/photos/QxjEi8Fs9Hg',
+                title: 'Stones',
+                imageUrl: 'https://i.pinimg.com/originals/7a/e6/9b/7ae69b1be31ea40a0f28d1f0411a04ae.jpg',
                 id: 1,
                 linkUrl: 'shop/stones'
               },
               {
-                title: 'rings',
-                imageUrl: 'https://unsplash.com/photos/qVI9kACTvVY',
+                title: 'Rings',
+                imageUrl: 'https://c4.wallpaperflare.com/wallpaper/159/647/823/sauron-the-one-ring-wallpaper-preview.jpg',
                 id: 2,
                 linkUrl: 'shop/rings'
               },
               {
-                title: 'artifacts',
-                imageUrl: 'https://unsplash.com/photos/4_ZvmLAeIZk',
+                title: 'Artifacts',
+                imageUrl: 'https://wallpapercave.com/wp/wp2814607.jpg',
                 id: 3,
                 linkUrl: 'shop/artifacts'
               },
               {
-                title: 'armor',
-                imageUrl: 'https://unsplash.com/photos/JOzv_pAkcMk',
+                title: 'Armor',
+                imageUrl: 'https://wallpaperaccess.com/full/325342.jpg',
                 size: 'large',
                 id: 4,
                 linkUrl: 'shop/models'
               },
               {
-                title: 'liquids',
-                imageUrl: 'https://unsplash.com/photos/oduOp0RlPf8',
+                title: 'Liquids',
+                imageUrl: 'https://c4.wallpaperflare.com/wallpaper/739/846/567/vera-velichko-potions-liquid-fire-wallpaper-preview.jpg',
                 size: 'large',
                 id: 5,
                 linkUrl: 'shop/liquids'
