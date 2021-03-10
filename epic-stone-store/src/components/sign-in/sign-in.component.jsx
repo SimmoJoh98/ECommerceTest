@@ -1,5 +1,7 @@
 import React from 'react';
 import './sign-in.styles.scss';
+import FormInput from '../../components/form-input/form-input.component.jsx'
+
 
 class SignIn extends React.Component{
     constructor(props){
@@ -30,11 +32,9 @@ class SignIn extends React.Component{
                 <span>Sign In With Your Email and Password</span>
 
                 <form onSubmit={this.handleSubmit}>
-                    <input onChange={this.handleChange} name='email' type='email' value={this.state.email} required />
-                    <label>Email</label>
-                    <input onChange={this.handleChange} name='password' type='password' value={this.state.password} required />
-                    <label>Password</label>
-                    <input type='submit' value='Submit Form' />
+                    <FormInput handleChange={this.handleChange} label='email' name='email' type='email' value={this.state.email} required />
+                    <FormInput handleChange={this.handleChange} label='password' name='password' type='password' value={this.state.password} required />
+                    <input type='submit' value='Submit Form'></input>
                 </form>
             </div>
         )
